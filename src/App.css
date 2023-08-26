@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;800&display=swap");
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Mulish", sans-serif;
+}
+
+button {
+  margin: 0 4px;
+}
+
+.taskWrapper {
+  max-width: 65ch;
+  margin-top: 1rem;
+  border: 1px solid #000;
+  padding: 0.5rem;
+  border-radius: 10px;
+  background-color: cornsilk;
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr;
+}
+
+div > span {
+  margin-right: 20px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
